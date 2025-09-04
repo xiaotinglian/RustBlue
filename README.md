@@ -1,6 +1,6 @@
 # RustBlue: Rust GTK4 Bluetooth Manager
 
-need a better look bluetooth GUI that can run in fedora hyprland.
+need a better look bluetooth GUI that can run in fedora hyprland under wayland.
 
 
 A modern Bluetooth management application written in Rust using GTK4, inspired by the original [Blueman](https://github.com/blueman-project/blueman) project. This application provides a native desktop experience for managing Bluetooth devices on Fedora Linux.
