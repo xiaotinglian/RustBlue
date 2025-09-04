@@ -5,7 +5,7 @@ need a better look bluetooth GUI that can run in fedora hyprland under wayland.
 
 A modern Bluetooth management application written in Rust using GTK4, inspired by the original [Blueman](https://github.com/blueman-project/blueman) project. This application provides a native desktop experience for managing Bluetooth devices on Fedora Linux.
 
-![alt text](image-1.png)
+![alt text](image.png)
 ![alt text](image-1.png)
 The application has been successfully implemented and is ready for use on Fedora Linux systems.
 the binary should be able to run in any linux
