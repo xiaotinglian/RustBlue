@@ -12,11 +12,11 @@ env:
 jobs:
   build:
 
-    runs-on: fedora-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Install system dependencies
-      run: sudo dnf install -y gtk4-devel libadwaita-devel dbus-devel bluez-libs-devel
+      run: sudo apt update && sudo apt install -y libdbus-1-dev libglib2.0-dev libgirepository1.0-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgraphene-1.0-dev libgtk-4-dev pkg-config
     - name: Build
       run: cargo build --verbose
     - name: Run tests
