@@ -39,8 +39,12 @@ sudo cp target/release/rustblue /usr/local/bin/
 ```
 
 or take the binary from release
-
-
+Hyprland config
+```bash
+windowrule = float, title:^(RustBlue)$
+windowrule = size 800 600, title:^(RustBlue)$
+windowrule = center, title:^(RustBlue)$
+```
 ### Dependencies
 
 - **GTK4 0.8**: Modern GUI toolkit
