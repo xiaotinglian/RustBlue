@@ -19,14 +19,12 @@ The following system packages are required (automatically installed via the "Ins
 ```bash
 sudo dnf install -y gtk4-devel libadwaita-devel dbus-devel bluez-libs-devel
 ```
+```bash
+sudo apt install -y libdbus-1-dev libglib2.0-dev libgirepository1.0-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgraphene-1.0-dev libgtk-4-dev libadwaita-1-dev pkg-config
+```
 
 ### Building and Running
 
-1. **Using VS Code Tasks** (Recommended):
-   - Press `Ctrl+Shift+P` and run "Tasks: Run Task"
-   - Select "Run RustBlue" to build and launch the application
-
-2. **Using Command Line**:
    ```bash
    cargo build        # Build the project
    cargo run          # Build and run the application
