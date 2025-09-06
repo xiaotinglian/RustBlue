@@ -31,7 +31,7 @@ sudo apt install -y libdbus-1-dev libglib2.0-dev libgirepository1.0-dev libgdk-p
    cargo check        # Check for errors without building
    ```
 
-### Installation
+Installation
 
 ```bash
 cargo build --release
@@ -39,7 +39,8 @@ sudo cp target/release/rustblue /usr/local/bin/
 ```
 
 or take the binary from release
-Hyprland config
+
+### Hyprland config
 ```bash
 windowrule = float, title:^(RustBlue)$
 windowrule = size 800 600, title:^(RustBlue)$
